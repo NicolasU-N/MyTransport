@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
                     setTitle("Pagina Uno");
                     PaginaUno fragment = new PaginaUno();
                     FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-                    fragmentTransaction.replace(R.id.content,fragment,"FragmentName");
+                    fragmentTransaction.replace(R.id.container,fragment,"FragmentName");
                     fragmentTransaction.commit();
                     return true;
 
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                     setTitle("Pagina Dos");
                     PaginaDos fragment2 = new PaginaDos();
                     FragmentTransaction fragmentTransaction2 = getSupportFragmentManager().beginTransaction();
-                    fragmentTransaction2.replace(R.id.content,fragment2,"FragmentName");
+                    fragmentTransaction2.replace(R.id.container,fragment2,"FragmentName");
                     fragmentTransaction2.commit();
                     return true;
 
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                     setTitle("Pagina Tres");
                     PaginaTres fragment3 = new PaginaTres();
                     FragmentTransaction fragmentTransaction3 = getSupportFragmentManager().beginTransaction();
-                    fragmentTransaction3.replace(R.id.content,fragment3,"FragmentName");
+                    fragmentTransaction3.replace(R.id.container,fragment3,"FragmentName");
                     fragmentTransaction3.commit();
                     return true;
 
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                     setTitle("Pagina cuatro");
                     PaginaCuatro fragment4 = new PaginaCuatro();
                     FragmentTransaction fragmentTransaction4 = getSupportFragmentManager().beginTransaction();
-                    fragmentTransaction4.replace(R.id.content,fragment4,"FragmentName");
+                    fragmentTransaction4.replace(R.id.container,fragment4,"FragmentName");
                     fragmentTransaction4.commit();
                     return true;
             }
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         setTitle("Pagina Uno");
         PaginaUno fragment = new PaginaUno();
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.content,fragment,"FragmentName");
+        fragmentTransaction.replace(R.id.container,fragment,"FragmentName");
         fragmentTransaction.commit();
     }
 

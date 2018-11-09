@@ -63,6 +63,7 @@ public class SliderMain extends AppCompatActivity {
         });
     }
 
+
     public void añadirPuntos(int posicion){
         mDots = new TextView[3];
         dotLayout.removeAllViews();
@@ -103,6 +104,7 @@ public class SliderMain extends AppCompatActivity {
 
                 btnSiguiente.setText("Siguiente");
                 btnAtras.setText("");
+
             }else if(i == mDots.length - 1){
                 btnSiguiente.setEnabled(true);
                 btnAtras.setEnabled(true);
@@ -116,6 +118,7 @@ public class SliderMain extends AppCompatActivity {
                     public void onClick(View v) {
                         Intent intent = new Intent(SliderMain.this, MainActivity.class);
                         startActivity(intent);
+                        finish(); // Finalizamos para no devolvernos
                     }
                 });
 
@@ -126,6 +129,18 @@ public class SliderMain extends AppCompatActivity {
 
                 btnAtras.setText("Atrás");
                 btnSiguiente.setText("Siguiente");
+
+
+                //OnClickListners
+
+                btnSiguiente.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        myslideViewPager.setCurrentItem(pagina_actual + 1);
+                    }
+                });
+
+
             }
         }
 
