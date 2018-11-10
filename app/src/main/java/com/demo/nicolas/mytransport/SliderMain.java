@@ -105,7 +105,7 @@ public class SliderMain extends AppCompatActivity {
                 btnSiguiente.setText("Siguiente");
                 btnAtras.setText("");
 
-            }else if(i == mDots.length - 1){
+            }else if(i == mDots.length - 1 ){
                 btnSiguiente.setEnabled(true);
                 btnAtras.setEnabled(true);
                 btnAtras.setVisibility(View.VISIBLE);
@@ -130,17 +130,13 @@ public class SliderMain extends AppCompatActivity {
                 btnAtras.setText("Atrás");
                 btnSiguiente.setText("Siguiente");
 
-
-                //OnClickListners
-
+                // Sobreescribimos método de btnSiguiente - issue #1
                 btnSiguiente.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         myslideViewPager.setCurrentItem(pagina_actual + 1);
                     }
                 });
-
-
             }
         }
 
