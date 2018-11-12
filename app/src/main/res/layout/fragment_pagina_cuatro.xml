@@ -7,7 +7,7 @@
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
-        android:background="#ec5f50"
+        android:background="@color/backgroundMain"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -17,6 +17,7 @@
             android:layout_margin="20dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center_horizontal"
             android:text="Pagina Cuatro" />
 
     </LinearLayout>

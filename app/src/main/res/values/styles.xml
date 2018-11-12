@@ -12,4 +12,11 @@
         <item name="android:windowBackground">@drawable/splash_screen</item>
     </style>
 
+    <style name="MainActivity" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/appBar</item>
+        <item name="colorPrimaryDark">@color/statusBar</item>
+        <item name="colorAccent">@color/itemColorTint</item>
+    </style>
+
 </resources>
