@@ -77,9 +77,12 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_insert_chart_black_24dp" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="height" value="30" />
+                            <entry key="outputName" value="ic_home_bottom_nav_bar" />
                             <entry key="overrideSize" value="true" />
-                            <entry key="sourceFile" value="C:\Users\NICOLAS\Desktop\Android Recursos\Splash Screen- empezar\Splash_Screen.svg" />
+                            <entry key="sourceFile" value="C:\Users\NICOLAS\Desktop\Android Recursos\Iconos_Bottom_Nav_Bar\ic_home_bottom_nav_bar.svg" />
+                            <entry key="width" value="30" />
                           </map>
                         </option>
                       </PersistentState>
