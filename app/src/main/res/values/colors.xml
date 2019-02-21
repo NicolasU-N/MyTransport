@@ -7,15 +7,16 @@
     <color name="colorBlancoTransparente">#cccccc</color>
     <color name="white">#ffffff</color>
 
+
     <!-- Colors Main -->
 
     <color name="statusBar">#66717E</color>
     <color name="appBar">#1C4779</color>
     <color name="btns">#2F6D1D</color>
-    <color name="itemColorTint">#E74C3C</color>
-    <color name="black">#4d4d4d</color>
-    <color name="BottomNavigation">#ffff</color>
-    <color name="backgroundMain">#E5E5E5</color>
+    <color name="itemColorTint">#e74c3c</color>
+    <color name="black">#161616</color>
+    <color name="BottomNavigation">#c1c1c1</color>
+    <color name="backgroundMain">#EEEEEE</color>
     <!-- Default screen margins, per the Android Design guidelines. -->
 
 </resources>

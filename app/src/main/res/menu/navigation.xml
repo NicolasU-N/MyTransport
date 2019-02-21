@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:id="@+id/navigation_inicio"
         android:icon="@drawable/ic_home_bottom_nav_bar"
         android:title="@string/titulo_inico" />
-
-    <item
-        android:id="@+id/navigation_valoraciones"
-        android:icon="@drawable/ic_valoracion_bottom_nav_bar"
-        android:title="@string/titulo_valora" />
 
     <item
         android:id="@+id/navigation_mapa"
@@ -20,5 +16,10 @@
         android:id="@+id/navigation_perfil"
         android:icon="@drawable/ic_user_bottom_nav_bar"
         android:title="@string/titulo_perfil" />
+
+    <item
+        android:id="@+id/logut_item"
+        android:icon="@drawable/ic_logout"
+        android:title="Cerrar Sesión" />
 
 </menu>

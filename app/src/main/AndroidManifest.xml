@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".SliderMain"></activity>
+        <activity android:name=".SliderMain" />
         <activity
             android:name=".SplashScreen"
             android:theme="@style/SplashTheme">
@@ -22,9 +22,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:theme="@style/MainActivity"
             android:name=".MainActivity"
-            android:label="@string/title_activity_main"></activity>
+            android:label="@string/title_activity_main"
+            android:theme="@style/MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".AccesoActivity" android:theme="@style/SplashTheme"/>
+
+        <activity android:name=".SingUpActivity" android:theme="@style/SplashTheme"/>
+
     </application>
 
 </manifest>

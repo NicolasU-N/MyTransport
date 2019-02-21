@@ -23,7 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="127" />
+                                                <entry key="scalingPercent" value="114" />
                                                 <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
@@ -35,8 +35,11 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="7bb7df" />
-                                      <entry key="foregroundImage" value="C:\Users\NICOLAS\Desktop\Android Recursos\Splash Screen- empezar\Icon_launcher_main\icon_launcher_main-hdpi.png" />
+                                      <entry key="backgroundColor" value="000000" />
+                                      <entry key="backgroundLayerName" value="ic_launcher_background" />
+                                      <entry key="foregroundImage" value="C:\Users\NICOLAS\Downloads\photo5950886534360180985.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_foto" />
+                                      <entry key="outputName" value="ic_foto_usuario" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -78,11 +81,11 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="height" value="30" />
-                            <entry key="outputName" value="ic_home_bottom_nav_bar" />
+                            <entry key="height" value="54" />
+                            <entry key="outputName" value="ic_btn_fab_intercambiar" />
                             <entry key="overrideSize" value="true" />
-                            <entry key="sourceFile" value="C:\Users\NICOLAS\Desktop\Android Recursos\Iconos_Bottom_Nav_Bar\ic_home_bottom_nav_bar.svg" />
-                            <entry key="width" value="30" />
+                            <entry key="sourceFile" value="D:\Archivos\UNIVERSIDAD\2018-2\DISPOSITIVOS MÓVILES\Android Recursos\Iconos\btn_fab_intercambiar.svg" />
+                            <entry key="width" value="46" />
                           </map>
                         </option>
                       </PersistentState>

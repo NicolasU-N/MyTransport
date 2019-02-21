@@ -12,8 +12,6 @@ import android.widget.TextView;
 
 public class SliderMain extends AppCompatActivity {
 
-
-
     private ViewPager myslideViewPager;
 
     private LinearLayout dotLayout;
@@ -21,9 +19,10 @@ public class SliderMain extends AppCompatActivity {
 
     private SliderAdapter SliderAdapter;
 
-    private Button btnAtras;
 
+    private Button btnAtras;
     private  Button btnSiguiente;
+    private Button btnEmpezar;
 
     private int pagina_actual;
 
@@ -38,6 +37,8 @@ public class SliderMain extends AppCompatActivity {
 
         btnAtras = (Button) findViewById(R.id.btnAtras);
         btnSiguiente = (Button) findViewById(R.id.btnSiguiente);
+        btnEmpezar = (Button) findViewById(R.id.btnEmpezar);
+
 
         SliderAdapter = new SliderAdapter(this);
         myslideViewPager.setAdapter(SliderAdapter);
@@ -99,24 +100,35 @@ public class SliderMain extends AppCompatActivity {
 
             if(i==0){
                 btnSiguiente.setEnabled(true);
+
                 btnAtras.setEnabled(false);
                 btnAtras.setVisibility(View.INVISIBLE);
+
+                btnEmpezar.setEnabled(false);
+                btnEmpezar.setVisibility(View.INVISIBLE);
 
                 btnSiguiente.setText("Siguiente");
                 btnAtras.setText("");
 
             }else if(i == mDots.length - 1 ){
-                btnSiguiente.setEnabled(true);
+
+                btnSiguiente.setEnabled(false);
+                btnSiguiente.setVisibility(View.INVISIBLE);
+
                 btnAtras.setEnabled(true);
                 btnAtras.setVisibility(View.VISIBLE);
 
-                btnAtras.setText("Atrás");
-                btnSiguiente.setText("Empezar");
+                btnEmpezar.setEnabled(true);
+                btnEmpezar.setVisibility(View.VISIBLE);
 
-                btnSiguiente.setOnClickListener(new View.OnClickListener() {
+                btnAtras.setText("Atrás");
+
+                //btnSiguiente.setText("Empezar");
+
+                btnEmpezar.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(SliderMain.this, MainActivity.class);
+                        Intent intent = new Intent(SliderMain.this, AccesoActivity.class);
                         startActivity(intent);
                         finish(); // Finalizamos para no devolvernos
                     }

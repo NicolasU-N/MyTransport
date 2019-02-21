@@ -36,7 +36,7 @@ public class SplashScreen extends AppCompatActivity {
         }else {
 
             //Nos dirigimos a la actividad principal
-            Intent intent = new Intent(this, MainActivity.class);
+            Intent intent = new Intent(this, AccesoActivity.class); //ojo aca, mainActivity por AccesoActivity
             startActivity(intent);
             finish();
         }
